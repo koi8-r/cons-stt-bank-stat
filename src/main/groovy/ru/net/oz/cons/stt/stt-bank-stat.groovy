@@ -85,7 +85,7 @@ new File(args[0]).listFiles().findAll {
                             if(  result.containsKey(key)  )
                                 result[key] ++
                             else
-                                result[key] = 0
+                                result[key] = 1
                         }
                         null
                     }
